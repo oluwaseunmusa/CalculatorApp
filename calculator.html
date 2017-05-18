@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>calculator</title>
+        <meta name="viewport" content="width=device-width">
+        <style>
+
+            /**********************************
+            UNIVERSAL BOX SIZING OF CONTAINERS
+            
+            ***********************************/
+
+            * {
+                -moz-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                margin: 0;
+            }
+
+            
+
+            body {
+
+                background: #3071a9;;
+            }
+
+              /*****************************
+              MAIN LAYOUT CONTAINER
+             ******************************/
+
+        .main-content {
+
+            width: 250px;
+            height: auto;
+            margin: 10px auto;
+            background: #fff;
+            border-radius: 5px;
+            border-bottom: 5px solid #8a97a0;
+        }
+
+        .body-content {
+            padding: 10px;
+        }
+
+        h2 {
+            padding: 10px;
+            font-size: 1em;
+            font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+            box-shadow: none;
+            text-transform: uppercase;
+            color: #8a97a0;
+
+        }
+
+        
+
+        /*****************************
+              INPUT STYLE
+         ******************************/
+
+        .input-format {
+            width:100%;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 1em;
+            font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+            box-shadow: none;
+            display: block;
+
+        }
+
+        input::-moz-placeholder,
+        input::placeholder{
+
+                color: #8a97a0;
+        }
+
+        input:focus {
+            color:tomato;
+        }
+
+
+        /*****************************
+              BUTTON CONTAINER
+        ******************************/
+        button {
+
+            width: 4em;
+            height: auto;
+            padding: 5px;
+            margin: 5px auto;
+            border-radius: 5px;
+            font-weight: normal;
+            border: none;
+            box-shadow: none;
+            font-weight: bold;
+            color: rgba(0,0,0,.5);
+        }
+
+        
+
+        button:hover{
+            color:tomato;
+        }
+        
+   </style>
+    </head>
+
+<body>
+    <!--Layout Begin -->
+<div class="main-content">
+   <h2> calculator </h2>
+    <!--Body for calculator button -->
+    <div class="body-content">
+         <input id="your-input-id" type="text" value=""
+          class="input-format" placeholder="0.2 X 1.0" maxlength="25">
+
+        <!--Button for 1,2,3 CLR -->
+        <button class="number-button" value="1">1</button>
+        <button class="number-button" value="2">2</button>
+        <button class="number-button" value="3">3</button>
+        <button type="reset">CLR</button> <br />
+        
+        <!--Button FOR 4,5,6,+ -->
+        <button class="number-button" value="4">4</button>
+        <button class="number-button" value="5">5</button>
+        <button class="number-button" value="6">6</button>
+        <button class="number-button" value="+">+</button> <br />
+
+        <!--Button FOR 7,8,9,= -->
+        <button class="number-button" value="7">7</button>
+        <button class="number-button" value="8">8</button>
+        <button class="number-button" value="9">9</button>
+        <button class="number-button" value="*">*</button> <br />
+
+        <!--Button FOR DOT MINUS & DIVISION -->
+        <button class="number-button" value=".">.</button>
+        <button class="number-button" value="-">-</button>
+        <button class="number-button" value="/">/</button>
+        <button style="background-color: #3071a9; color:#fff;">=</button>
+    </div>
+    <!--Body for calculator button End -->
+
+  
+</div>
+    <!--Layout End -->
+
+
+
+    <script>
+        var input = document.querySelector("#your-input-id")
+var buttons = document.querySelectorAll("button.number-button")
+
+
+for (i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", function(event) {
+    input.value = input.value + event.currentTarget.value
+  })
+}
+    </script>
+</body>
+</html>
