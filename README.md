@@ -1,7 +1,7 @@
 # CalculatorApp
 
-This Application can be embeded into :
+## This Application can be embedded into: ##
 
-**Single Page Aplication Dash Board.**
+## Single Page Application Dash Board. ##
 
-**Large Scale Application Dash Board.**
+## Large Scale Application Dash Board. ##
