@@ -8,8 +8,8 @@
 
 ## JavaScript Scalabilities
 
- + Variables
-    * Numbers 
+> + Variables
+>   * Numbers 
     * Strings
  + Arrays
  + Objects
