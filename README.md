@@ -6,7 +6,8 @@
 
 ## Large Scale Application Dash Board. ##
 
-Here's my [Twitter][twitter] handle 
+Here's my [Twitter][1] handle 
 
 Here's my [Instagram]<https://instagram.com/super_issy "This is a Instagram handle">
-[twitter]: https://twitter.com/oluwaseun_musa
+
+[1]: https://twitter.com/oluwaseun_musa
