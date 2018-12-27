@@ -8,6 +8,6 @@
 
 Here's my [Twitter][1] handle 
 
-Here's my [Instagram]<https://instagram.com/super_issy "This is a Instagram handle">
+Here's my [Instagram]<https://instagram.com/super_issy>
 
 [1]: https://twitter.com/oluwaseun_musa
