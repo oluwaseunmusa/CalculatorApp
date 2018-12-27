@@ -19,4 +19,5 @@ Here's my [Instagram](https://instagram.com/super_issy "This is a Instagram hand
 <style>
   image {
   max-width: 300px;
+  }
 </style>
