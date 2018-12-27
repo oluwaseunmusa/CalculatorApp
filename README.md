@@ -6,4 +6,4 @@
 
 ## Large Scale Application Dash Board. ##
 
-~~ Welcome to 2019 ~~
+~~Welcome to 2019~~
