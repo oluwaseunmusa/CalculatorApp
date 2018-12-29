@@ -9,6 +9,37 @@
 ## JavaScript Scalabilities
 
 > + Variables
+```JavaScript
+let internshipList = {
+
+    internOne : {
+        name: "John Akinwale",
+        age: 25,
+        location: "Lagos Nigeria",
+        jobRole: "Front-End Developer",
+        university: "University Of Lagos"
+    },
+
+    internOne: {
+        name: "Adenike Williams",
+        age: 22,
+        location: "Abuja Nigeria",
+        jobRole: "Android Developer",
+        university: "University Of Ilorin"
+
+
+    },
+
+    internThree: {
+        name: "Fikayo Olawumi",
+        age: 27,
+        location: "Illinios Chicago",
+        jobRole: "Full Stack Developer",
+        university: "University Of Illinios"
+
+    }
+}
+```
 >   * Numbers 
     * Strings
  + Arrays
