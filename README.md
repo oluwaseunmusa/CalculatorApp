@@ -34,5 +34,5 @@
 [image]: https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?cs=srgb&dl=architecture-buildings-city-169647.jpg&fm=jpg
 
 [Instagram]: https://instagram.com/super_issy
-[Twittter]: https://twitter.com/oluwaseun_musa
+[Twitter]: https://twitter.com/oluwaseun_musa
 [email]: oluwaseun.musa@outlook.com
